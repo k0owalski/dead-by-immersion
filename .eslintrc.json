@@ -20,5 +20,13 @@
 		"react/jsx-uses-react": "off",
 		"react/react-in-jsx-scope": "off",
 		"prettier/prettier": "off"
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [".js", ".jsx"],
+				"moduleDirectory": ["node_modules", "src"]
+			}
+		}
 	}
 }
