@@ -1,13 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
-import MontserratBold from 'assets/Montserrat-Bold.woff2';
-import MontserratSemiBold from 'assets/Montserrat-SemiBold.woff2';
-import MontserratMedium from 'assets/Montserrat-Medium.woff2';
-import MontserratRegular from 'assets/Montserrat-Regular.woff2';
-import MontserratLight from 'assets/Montserrat-Light.woff2';
-import OxygenBold from 'assets/Oxygen-Bold.woff2';
-import OxygenRegular from 'assets/Oxygen-Regular.woff2';
-import OxygenLight from 'assets/Oxygen-Light.woff2';
+import MontserratBold from 'assets/fonts/Montserrat-Bold.woff2';
+import MontserratSemiBold from 'assets/fonts/Montserrat-SemiBold.woff2';
+import MontserratMedium from 'assets/fonts/Montserrat-Medium.woff2';
+import MontserratRegular from 'assets/fonts/Montserrat-Regular.woff2';
+import MontserratLight from 'assets/fonts/Montserrat-Light.woff2';
+import OxygenBold from 'assets/fonts/Oxygen-Bold.woff2';
+import OxygenRegular from 'assets/fonts/Oxygen-Regular.woff2';
+import OxygenLight from 'assets/fonts/Oxygen-Light.woff2';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -80,6 +80,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 
     background-color: rgb(var(--color-background));
     color: rgb(var(--color-text));
