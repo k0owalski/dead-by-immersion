@@ -50,13 +50,13 @@ const StyledNavbar = styled.nav`
 
     list-style-type: none;
 
-    background-color: rgba(var(--color-background), .9);
+    background-color: rgba(var(--color-background), .95);
 
     transition: translate .3s ease, opacity .15s ease-in-out;
     opacity: 1;
 
     &.navigation--hidden {
-      translate: 0 -100%;
+      translate: 100% 0;
       opacity: 0;
     }
 
