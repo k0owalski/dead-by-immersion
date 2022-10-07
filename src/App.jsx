@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
 import RootView from 'views/Root/Root';
 import Navbar from 'components/organisms/Navbar/Navbar';
 import GlobalStyle from 'theme/GlobalStyle';
