@@ -73,6 +73,10 @@ const GlobalStyle = createGlobalStyle`
     --color-text: 244, 244, 244;
     --color-accent: 237, 188, 90;
 
+    --color-tile: 38, 38, 38;
+    --color-tile-lighter: 51, 51, 51;
+    --color-tile-lightest: 64, 64, 64;
+
     --media-small: 480px;
     --media-medium: 1024px;
     --media-large: 1366px;
