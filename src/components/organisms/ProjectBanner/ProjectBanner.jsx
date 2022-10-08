@@ -28,7 +28,7 @@ function ProjectBanner() {
 
     setTimeoutID(setTimeout(() => {
       setSlides(prev => prev.map(slide => ({ ...slide, opacity: slide.opacity === 0 ? slides.length - 1 : slide.opacity - 1 })));
-    }, 9600));
+    }, 8000));
   }, [slides]);
 
   return (

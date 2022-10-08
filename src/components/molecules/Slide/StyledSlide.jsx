@@ -11,7 +11,6 @@ const StyledSlide = styled.div`
 
   padding: 12rem 10% 0;
 
-  z-index: 1;
   transition: opacity .32s ease;
 
   .content {
