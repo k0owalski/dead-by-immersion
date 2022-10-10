@@ -80,6 +80,8 @@ const GlobalStyle = createGlobalStyle`
     --media-small: 480px;
     --media-medium: 1024px;
     --media-large: 1366px;
+
+    --max-width: 1440px;
   }
 
   body {
