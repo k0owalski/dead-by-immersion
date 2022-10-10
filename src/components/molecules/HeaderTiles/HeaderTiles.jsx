@@ -13,7 +13,7 @@ const HeaderTiles = () => {
   ];
 
   return (
-    <StyledHeaderTiles>
+    <StyledHeaderTiles className="header-tiles">
       {
         data.map(item => <HeaderTile key={item.id} data={item} />)
       }
