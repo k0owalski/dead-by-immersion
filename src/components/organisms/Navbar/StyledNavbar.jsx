@@ -20,18 +20,8 @@ const StyledNavbar = styled.nav`
     height: 3rem;
   }
 
-  .brand-link, .mobile-menu-button {
+  .brand-link {
     z-index: 1;
-  }
-
-  .mobile-menu-button {
-    background: unset;
-    border: none;
-
-    .mobile-menu-button-image {
-      width: 2rem;
-      height: 2rem;
-    }
   }
 
   .navigation {
@@ -55,7 +45,7 @@ const StyledNavbar = styled.nav`
     transition: translate .3s ease, opacity .15s ease-in-out;
     opacity: 1;
 
-    &.navigation--hidden {
+    &.is-hidden {
       translate: 100% 0;
       opacity: 0;
     }

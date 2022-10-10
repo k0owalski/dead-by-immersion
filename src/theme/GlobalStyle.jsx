@@ -97,6 +97,11 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 700;
   }
 
+  button {
+    background: transparent;
+    border: none;
+  }
+
 `;
 
 export default GlobalStyle;
