@@ -1,7 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
-import RootView from 'views/Root/Root';
-import Navbar from 'components/organisms/Navbar/Navbar';
+
 import GlobalStyle from 'theme/GlobalStyle';
+
+import RootView from 'views/Root/Root';
+
+import Navbar from 'components/organisms/Navbar/Navbar';
+import Footer from 'components/organisms/Footer/Footer';
 
 function App() {
 	return (
@@ -11,7 +15,7 @@ function App() {
 			<Routes>
 				<Route path='/' element={<RootView />} />
 			</Routes>
-			<footer className="footer" />
+			<Footer />
 		</div>
 	);
 }
