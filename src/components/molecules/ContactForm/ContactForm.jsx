@@ -9,20 +9,19 @@ const ContactForm = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-
-    const data = {
-      fullName: name,
-      subject,
-      message
-    };
-
-    console.log(data);
-
+  const resetFormValues = () => {
     setName('');
     setSubject('');
     setMessage('');
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // const data = { name, subject, message };
+    // console.log(data);
+
+    resetFormValues();
   };
 
   const handleNameChange = (event) => setName(event.target.value);
