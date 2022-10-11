@@ -42,11 +42,11 @@ const StyledNavbar = styled.nav`
 
     background-color: rgba(var(--color-background), .95);
 
-    transition: translate .3s ease, opacity .15s ease-in-out;
+    transition: transform .3s ease, opacity .15s ease-in-out;
     opacity: 1;
 
     &.is-hidden {
-      translate: 100% 0;
+      transform: translate(-100%, 0);
       opacity: 0;
     }
 

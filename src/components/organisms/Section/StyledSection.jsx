@@ -33,7 +33,7 @@ const StyledSection = styled.section`
         position: absolute;
         top: 0;
         left: 0;
-        translate: -1rem -.25rem;
+        transform: translate(-1rem, -.25rem);
 
         border: 1px solid rgb(var(--color-accent));
         opacity: .2;
@@ -119,7 +119,7 @@ const StyledSection = styled.section`
       position: absolute;
       top: 0;
       right: 0;
-      translate: 1rem -1rem;
+      transform: translate(1rem, -1rem);
 
       border: 1px solid rgb(var(--color-accent));
       opacity: .2;

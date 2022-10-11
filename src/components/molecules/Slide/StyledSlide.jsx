@@ -18,9 +18,9 @@ const StyledSlide = styled.div`
     flex-direction: column;
     gap: 2rem;
 
-    translate: ${({ slideOpacity }) => Math.max(0, Math.min(slideOpacity, 1)) ? '0 0' : '-1rem 0'};
+    transform: translate(${({ slideOpacity }) => Math.max(0, Math.min(slideOpacity, 1)) ? '0, 0' : '-1rem, 0'});
 
-    transition: translate .64s;
+    transition: transform .64s;
 
     .title {
       font-family: 'Oxygen';
