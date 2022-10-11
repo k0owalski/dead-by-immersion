@@ -10,8 +10,8 @@ const ContactInfo = ({ rightAlign }) => (
       <span className="address-line">00-000, Kraków</span>
     </div>
     <div className="contact-data-innerwrapper">
-      <div className="email">contact@deadbyimmersion.com</div>
-      <div className="phone">+48 000 000 000</div>
+      <a className="email" href="mailto:contact@deadbyimmersion">contact@deadbyimmersion</a>
+      <a className="phone" href="tel:+48000000000">+48 000 000 000</a>
     </div>
   </StyledContactInfo>
 );

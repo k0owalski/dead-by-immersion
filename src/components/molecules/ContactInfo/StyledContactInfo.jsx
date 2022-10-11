@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 import mailIcon from 'assets/images/mail-icon.svg';
 import phoneIcon from 'assets/images/phone-icon.svg';
 
-const StyledContactInfo = styled.div`
+const StyledContactInfo = styled.address`
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -46,6 +46,10 @@ const StyledContactInfo = styled.div`
     .email, .phone {
       display: flex;
       gap: .75rem;
+
+      text-decoration: none;
+
+      color: rgb(var(--color-text));
     }
 
     .email::before,
