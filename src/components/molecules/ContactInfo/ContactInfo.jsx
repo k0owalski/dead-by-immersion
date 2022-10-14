@@ -1,9 +1,7 @@
-import PropTypes from 'prop-types';
-
 import StyledContactInfo from "./StyledContactInfo";
 
-const ContactInfo = ({ rightAlign }) => (
-  <StyledContactInfo rightAlign={rightAlign}>
+const ContactInfo = () => (
+  <StyledContactInfo>
     <div className="contact-data-innerwrapper">
       <span className="brand-name">Dead by Immersion sp. z.o.o.</span>
       <span className="address-line">xerceserty 034/04</span>
@@ -15,13 +13,5 @@ const ContactInfo = ({ rightAlign }) => (
     </div>
   </StyledContactInfo>
 );
-
-ContactInfo.propTypes = {
-  rightAlign: PropTypes.bool
-};
-
-ContactInfo.defaultProps = {
-  rightAlign: false
-}
 
 export default ContactInfo;

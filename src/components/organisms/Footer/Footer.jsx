@@ -1,5 +1,6 @@
-import logo from 'assets/images/logo.png';
 import ContactInfo from 'components/molecules/ContactInfo/ContactInfo';
+
+import logo from 'assets/images/logo.png';
 
 import StyledFooter from "./StyledFooter";
 

@@ -26,6 +26,27 @@ const StyledSlide = styled.div`
       font-family: 'Oxygen';
       font-size: 2.5rem;
       font-weight: 600;
+
+      @media screen and (min-width: 480px) {
+        font-size: 3rem;
+      }
+    }
+
+    .description {
+      display: -webkit-box;
+
+      max-width: 100%;
+
+      font-size: 1rem;
+
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+
+      overflow: hidden;
+
+      @media screen and (min-width: 480px) {
+        font-size: 1.25rem;
+      }
     }
   }
 

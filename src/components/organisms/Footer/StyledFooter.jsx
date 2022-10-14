@@ -16,6 +16,13 @@ const StyledFooter = styled.footer`
     font-size: .75rem;
     font-weight: 300;
   }
+
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+
+    align-items: center;
+  }
 `;
 
 export default StyledFooter;
