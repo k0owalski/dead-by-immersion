@@ -45,6 +45,8 @@ const StyledSlide = styled.div`
       overflow: hidden;
 
       @media screen and (min-width: 480px) {
+        max-width: 45rem;
+
         font-size: 1.25rem;
       }
     }

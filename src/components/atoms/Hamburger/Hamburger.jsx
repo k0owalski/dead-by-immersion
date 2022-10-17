@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import StyledHamburger from "./StyledHamburger";
 
 const Hamburger = ({ isActive, handleClick }) => (
-  <StyledHamburger className={`hamburger ${isActive && 'is-active'}`} type="button" onClick={handleClick}>
+  <StyledHamburger className={`hamburger ${isActive ? 'is-active' : ''}`} type="button" onClick={handleClick}>
     <span className="hamburger-inner" />
   </StyledHamburger>
 );

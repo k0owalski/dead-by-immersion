@@ -13,6 +13,10 @@ const StyledHamburger = styled.button`
   transition: all .32s ease-in-out;
   z-index: 1;
 
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+
   .hamburger-inner,
   .hamburger-inner::before,
   .hamburger-inner::after {

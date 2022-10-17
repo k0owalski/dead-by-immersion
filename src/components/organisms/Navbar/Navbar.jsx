@@ -10,7 +10,7 @@ import StyledNavbar from "./StyledNavbar";
 
 
 function Navbar() {
-  const [isNavActive, setIsNavActive] = useState(false);
+  const [isNavActive, setIsNavActive] = useState(window.screen.width > 1024);
 
   const toggleMobileMenu = () => setIsNavActive(prev => !prev);
 
