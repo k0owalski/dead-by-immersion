@@ -13,6 +13,8 @@ const StyledHamburger = styled.button`
   transition: all .32s ease-in-out;
   z-index: 1;
 
+  cursor: pointer;
+
   @media screen and (min-width: 1024px) {
     display: none;
   }
